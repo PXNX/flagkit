@@ -1,12 +1,17 @@
 # flagkit
 Flag Kit copy from https://github.com/madebybowtie/FlagKit for Android 
 
-Usage
+**build.gradle**
     
-    compile 'com.jwang123.flagkit:flagkit:1.0'
-    
-    FlagKit.drawableWithFlag(context, "Conutry code");
-    
+    implementation 'com.jwang123.flagkit:flagkit:1.0'
+
+**Usage**
+
+    FlagKit.drawableWithFlag(context, "Country code");
+   
+   
+**Example**
+   
     FlagKit.drawableWithFlag(context, "US");
     
 # LICENSE
